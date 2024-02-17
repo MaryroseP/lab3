@@ -1,8 +1,10 @@
-<!doctype html>
-<html>
-<head>
-    <title>CodeIgniter Tutorial</title>
-</head>
-<body>
+<!DOCTYPE html>
+<html lang="en">
 
-    <h1><?= esc($title) ?></h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agent 666</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>

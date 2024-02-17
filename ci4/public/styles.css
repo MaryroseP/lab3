@@ -1,0 +1,183 @@
+/* Existing styles */
+
+body {
+    background-color: black;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: rgb(54, 218, 54);
+    font-family: courier;
+}
+.error {color: #FF0000;}
+
+.index_button {
+    background-color: rgb(54, 218, 54);
+    margin: 10px;
+    width: 20%;
+    height: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.index_button a {
+    color: black;
+    text-decoration: none;
+}
+
+a {
+    color: rgb(54, 218, 54);
+}
+.index_tab {
+    display: flex;
+}
+
+.button {
+    background-color: rgb(54, 218, 54);
+    font-size: 2rem;
+    text-decoration: none;
+    width: 20%;
+    height: 13%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.first_page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+.big_font {
+    font-size: 3rem;
+    margin: auto;
+}
+
+.hacker_text {
+    color: rgb(54, 218, 54);
+    font-size: 5rem;
+    font-family: courier;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+h1, h2 {
+    text-decoration: underline;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.heading {
+    text-decoration-line: underline;
+    display: inline-block;
+    white-space: nowrap;
+    animation: blink 1s step-end infinite;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.endline {
+    white-space: nowrap;
+    animation: blink 1s step-end infinite;
+}
+
+.agent-notes {
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 20px;
+    border-bottom: 3px solid rgb(54, 218, 54);
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.circuits {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.agent-profile {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    padding: 30px;
+    border-top: 3px solid rgb(54, 218, 54);
+    border-bottom: 3px solid rgb(54, 218, 54);
+    margin-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.agent-pic {
+    width: 300px;
+    margin-right: 20px;
+}
+
+.agent-details {
+    color: rgb(54, 218, 54);
+    font-family: monospace;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.books {
+    display: flex;
+    margin-bottom: 20px;
+    border-left: 3px solid rgb(54, 218, 54);
+    border-right: 3px solid rgb(54, 218, 54);
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.table-content {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.book-cover {
+    width: 100px;
+    margin-right: 10px;
+}
+
+@keyframes blink {
+    0%, 100% {
+        border-right: 5px solid rgb(54, 218, 54);
+    }
+    50% {
+        border-right: 5px solid transparent;
+    }
+}
+
+button {
+    background-color: black;
+    color: rgb(54, 218, 54);
+    font-family: courier;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+/* Matrix animation styles */
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#quizContainer {
+    background-color: black;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+
+}

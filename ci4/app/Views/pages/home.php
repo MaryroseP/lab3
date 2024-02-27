@@ -14,10 +14,13 @@
 
     <div class="index_tab">
         <div class="index_button">
-            <a href="first_page.php"><b>Home_Screen</b></a>
+            <a href=<?= base_url('first_page') ?>><b>Home_Screen</b></a>
         </div>
         <div class="index_button">
-            <a href="resources.php"><b>Resources</b></a>
+            <a href=<?= base_url('resources') ?>><b>Resources</b></a>
+        </div>
+        <div class="index_button">
+            <a href=<?= base_url('news') ?>><b>Form</b></a>
         </div>
 
     </div>

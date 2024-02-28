@@ -25,7 +25,7 @@
 
     </div>
     <h1 class="heading">Hello, and welcome, AGENT 666 </h1>
-
+    \CodeIgniter\CodeIgniter::CI_VERSION
     
 
     <div class="agent-profile">

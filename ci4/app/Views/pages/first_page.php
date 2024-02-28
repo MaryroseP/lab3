@@ -15,7 +15,7 @@
     </div>
     <br><br>
     <div class="button">
-        <a href='index.php'><b>Proceed</b></a>
+    <a href=<?= base_url('home') ?>><b>Proceed</b></a>
     </div>
     <script>
 

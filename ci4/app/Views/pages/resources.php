@@ -11,10 +11,10 @@
 <body>
     <div class="index_tab">
         <div class="index_button">
-            <a href="first_page.php"><b>Home_Screen</b></a>
+        <a href=<?= base_url('first_page') ?>><b>Home_Screen</b></a>
         </div>
         <div class="index_button">
-            <a href="index.php"><b>Agent_666</b></a>
+        <a href=<?= base_url('home') ?>><b>Agent_666</b></a>
         </div>
     </div>
 

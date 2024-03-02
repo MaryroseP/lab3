@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agent 666</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
 <body>
     <div class="index_tab">
         <div class="index_button">
@@ -20,6 +11,12 @@
             <a href=<?= base_url('news') ?>><b>News</b></a>
         </div>
     </div>
+
+    <div class="articles">
+        <h2> Trial title </h2>
+        <p> Trial paragraph</p>
+    </div>
+
 
     <h1 class="heading">>>>Resources</h1>
     <hr>
@@ -55,8 +52,3 @@
             <li><a href="https://www.youtube.com/watch?v=W5oawMJaXbU">https://www.youtube.com/watch?v=W5oawMJaXbU</a></li>
         </ul>
     </p>
-
-
-    
-</body>
-</html>

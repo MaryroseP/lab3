@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agent 666</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-
 <body>
     <canvas id="canvas" style="background: #111;"></canvas>
 
@@ -26,7 +15,6 @@
     </div>
     <h1 class="heading">Hello, and welcome, AGENT 666 </h1>
     
-
     <div class="agent-profile">
         <img src="Marot.jpg" alt="Agent 666" class="agent-pic">
         <h2 class="agent-details">
@@ -125,6 +113,4 @@
 </div>
 
 <script src="script.js"></script>
-</body>
 
-</html>

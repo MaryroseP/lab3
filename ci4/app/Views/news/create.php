@@ -1,3 +1,4 @@
+<?= link_tag('styles.css') ?>
 <h2><?= esc($title) ?></h2>
 
 <?= session()->getFlashdata('error') ?>

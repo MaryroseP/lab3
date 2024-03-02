@@ -20,7 +20,7 @@
             <a href=<?= base_url('resources') ?>><b>Resources</b></a>
         </div>
         <div class="index_button">
-            <a href=<?= base_url('news') ?>><b>Form</b></a>
+            <a href=<?= base_url('news') ?>><b>News</b></a>
         </div>
 
     </div>

@@ -16,6 +16,9 @@
         <div class="index_button">
         <a href=<?= base_url('home') ?>><b>Agent_666</b></a>
         </div>
+        <div class="index_button">
+            <a href=<?= base_url('news') ?>><b>News</b></a>
+        </div>
     </div>
 
     <h1 class="heading">>>>Resources</h1>

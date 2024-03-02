@@ -12,12 +12,6 @@
         </div>
     </div>
 
-    <div class="articles">
-        <h2> Trial title </h2>
-        <p> Trial paragraph</p>
-    </div>
-
-
     <h1 class="heading">>>>Resources</h1>
     <hr>
     <h2><span class="endline">IMAGES</span></h2>

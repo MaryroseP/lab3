@@ -13,32 +13,28 @@
     </div>
 <br>
 
-<div class="articles">
+<br>
 
-<h2> Trial title </h2>
-<p> Trial paragraph</p>
 
-</div>
 
-<br><br><br>
-
-<h2><?= esc($title) ?></h2>
+<h1 class="heading"><?= esc($title) ?></h2>
 
 <?= link_tag('styles.css') ?>
-
 
     <?php if (! empty($news) && is_array($news)): ?>
 
     <?php foreach ($news as $news_item): ?>
-
+        <div class="new">
         <h3><?= esc($news_item['title']) ?></h3>
 
         <div class="main">
             <?= esc($news_item['body']) ?>
         </div>
-        <p><a href="/news/<?= esc($news_item['slug'], 'url') ?>">View article</a></p> <br>
-
+        <p><a href="/news/<?= esc($news_item['slug'], 'url') ?>">View article</a></p>
+        </div><br>
     <?php endforeach ?>
+
+
 
     <?php else: ?>
 
@@ -48,4 +44,9 @@
 
     <?php endif ?>
 
-
+<!--
+    1. Copy files made for news
+    2. Rename all classes to guests instead of news
+    3. Change fields from title and body to name, email, website etc.
+    4. Check justin's repo
+ -->

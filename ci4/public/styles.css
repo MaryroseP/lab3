@@ -14,7 +14,7 @@ body {
     background-color: rgb(54, 218, 54);
     margin: 10px;
     width: 20%;
-    height: 13%;
+    height: 15%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -144,12 +144,6 @@ h1, h2 {
     margin-right: 10px;
 }
 
-.articles {
-    margin-left: 20px;
-    margin-right: 20px;
-    border: 3px solid rgb(54, 218, 54);
-    padding-left: 3px;
-}
 
 .new {
     margin-left: 20px;

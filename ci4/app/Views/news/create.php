@@ -1,3 +1,18 @@
+    
+    <div class="index_tab">
+        <div class="index_button">
+            <a href=<?= base_url('first_page') ?>><b>Home_Screen</b></a>
+        </div>
+        <div class="index_button">
+            <a href=<?= base_url('resources') ?>><b>Resources</b></a>
+        </div>
+        <div class="index_button">
+            <a href=<?= base_url('news') ?>><b>News</b></a>
+        </div>
+
+    </div>
+<br>
+
 <?= link_tag('styles.css') ?>
 <h2><?= esc($title) ?></h2>
 

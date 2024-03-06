@@ -1,10 +1,28 @@
+<div class="index_tab">
+        <div class="index_button">
+            <a href=<?= base_url('first_page') ?>><b>Home_Screen</b></a>
+        </div>
+        <div class="index_button">
+            <a href=<?= base_url('resources') ?>><b>Resources</b></a>
+        </div>
+        <div class="index_button">
+            <a href=<?= base_url('guests') ?>><b>Guest</b></a>
+        </div>
+
+    </div>
+<br>
+
+
+<?= link_tag('styles.css') ?>
+<body>
+<input type="hidden" name="<?= csrf_token() ?>" value="<?= csrf_hash() ?>" />
 <article class="center">
 	<?= session()->getFlashdata('error') ?>
 	<?= validation_list_errors() ?>
-	
+
 	<form action="../guests" method="post">
 	    <?= csrf_field() ?>
-            <h2>Sign the Guest Book!</h2>
+            <h2>Anything to say?</h2>
             Name: <input type="text" name="name" value="<?= set_value('name') ?>">
             <br><br>
             E-mail: <input type="text" name="email" value="<?= set_value('email') ?>">

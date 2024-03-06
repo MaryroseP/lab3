@@ -1,10 +1,27 @@
-<!--<h2><?= esc($title) ?></h2>-->
+<body>
+<div class="index_tab">
+        <div class="index_button">
+            <a href=<?= base_url('first_page') ?>><b>Home_Screen</b></a>
+        </div>
+        <div class="index_button">
+            <a href=<?= base_url('resources') ?>><b>Resources</b></a>
+        </div>
+        <div class="index_button">
+            <a href=<?= base_url('guests/new') ?>><b>Add new</b></a>
+        </div>
+
+    </div>
+<br>
+
+<br>
+<h1>>>> What people have to say:</h1>
+<br>
 
 <article>
 <?php if (! empty($guests) && is_array($guests)): ?>
 
     <?php foreach ($guests as $guest): ?>
-
+        <div class="new">
         <h3><?= esc($guest['name']) ?></h3>
 
         <div class="main">
@@ -18,9 +35,8 @@
 	    <br>
         </div>
         <p><a href="./guests/<?= esc($guest['email'], 'url') ?>">View Guest</a></p>
-
+    </div><br>
     <?php endforeach ?>
-
 <?php else: ?>
 
     <h3>No Guests</h3>
@@ -29,3 +45,4 @@
 
 <?php endif ?>
 </article>
+</body>

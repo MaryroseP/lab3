@@ -10,6 +10,9 @@
         <div class="index_button">
             <a href=<?= base_url('news') ?>><b>News</b></a>
         </div>
+        <div class="index_button">
+            <a href=<?= base_url('guests') ?>><b>Guests</b></a>
+        </div>
     </div>
 
     <h1 class="heading">>>>Resources</h1>

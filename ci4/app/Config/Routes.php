@@ -33,6 +33,7 @@ $routes->set404Override();
 $routes->get('/', 'Home::index');
 
 use App\Controllers\News;
+use App\Controllers\Guests;
 use App\Controllers\Pages;
 
 $routes->get('guests', [Guests::class, 'index']);

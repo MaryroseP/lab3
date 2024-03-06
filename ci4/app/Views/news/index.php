@@ -17,7 +17,7 @@
 
 
 
-<h1 class="heading"><?= esc($title) ?></h2>
+<h1 class="heading"><?= esc($title) ?></h1>
 
 <?= link_tag('styles.css') ?>
 
@@ -43,10 +43,3 @@
     <p>Unable to find any news for you.</p>
 
     <?php endif ?>
-
-<!--
-    1. Copy files made for news
-    2. Rename all classes to guests instead of news
-    3. Change fields from title and body to name, email, website etc.
-    4. Check justin's repo
- -->
